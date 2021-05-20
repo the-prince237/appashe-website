@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>inscription | appashe</title>
+    <link rel="stylesheet" href="style/header-footer.css">
+    <title>connexion | appashe</title>
 </head>
 
 <body>
@@ -23,8 +23,8 @@
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
             <ul class="nav-list flexed">
-                <li>
-                    <a href="connexion.html"><img src="images/compte.png" alt="compte"></a>
+                <li class="currentPage">
+                    <a href="compte.html"><img src="images/compte.png" alt="compte"></a>
                 </li>
                 <li>
                     <a href="panier.html"><img src="images/panier.png" alt="panier"></a>
@@ -33,15 +33,14 @@
         </nav>
     </header>
 
-    <h1>S'inscrire</h1>
-    <p>Déjà membre ? <a href="inscription.html">Se connecter</a></p>
-    <!-- formulaire d'inscription -->
+    <h1>Se connecter</h1>
+    <p>Nouveau sur ce site ? <a href="inscription.html">S'inscrire'</a></p>
+    <!-- formulaire de connexion -->
     <form action="">
-        <input type="email" name="email" placeholder="Email">
-        <input type="telephone" name="telephone" placeholder="Telephone">
-        <input type="password" name="password" placeholder="Mot de passe">
-        <input type="password" name="password" placeholder="tappez le mot de passe à nouveau"> <input type="submit" name="connexion">
-        <input type="submit" name="inscription" value="m'inscire">
+        <input type="email" name="email">
+        <input type="password" name="password">
+        <a href="">mot de passe oublié ?</a>
+        <input type="submit" name="connexion" value="me connecter">
     </form>
     <div id="separteur">
         <hr>
@@ -106,7 +105,5 @@
         </section>
     </footer>
 </body>
-
-</html>
 
 </html>

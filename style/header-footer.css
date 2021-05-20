@@ -15,9 +15,9 @@
     }
     
     .currentPage {
-        color: #ffd700;
-        text-decoration: underline;
+        color: #121223;
         font-weight: bolder;
+        border-bottom: solid 3px #121223;
     }
     
     .flexed {
@@ -44,15 +44,6 @@
     
     .logo {
         margin: 5px;
-    }
-    
-    .bodySection {
-        width: 80%;
-        height: 400px;
-        margin: auto;
-        margin-bottom: 50px;
-        border-radius: 20px;
-        box-shadow: 2px 2px 5px #121223, 2px -2px 5px #121223, -2px -2px 5px #121223, -2px 2px 5px #121223;
     }
     
     footer {

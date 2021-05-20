@@ -1,0 +1,64 @@
+.banner {
+    width: 60%;
+    background: url('../images/w.png') fixed no-repeat;
+    margin: auto;
+    box-shadow: 1px 1px 5px #121223, -1px 1px 5px #121223, -1px -1px 5px #121223, 1px -1px 5px #121223;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0.8;
+}
+
+.banner:hover {
+    opacity: 1;
+}
+
+.banner img {
+    max-width: 60%;
+    margin: auto;
+}
+
+.bandeau {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    bottom: 2.5%;
+    z-index: 1;
+}
+
+.banner .button {
+    width: 69.813px;
+    height: 43.147px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.button__sur {
+    border: solid 2px #ffd700;
+    color: #ffd700;
+    background-color: transparent;
+}
+
+.button__fill {
+    background: #ffd700;
+    color: black;
+    box-shadow: 1px 1px 2px black inset, -1px 1px 2px black inset, -1px -1px 2px black inset, 1px -1px 2px black inset;
+}
+
+.tout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
