@@ -1,0 +1,23 @@
+.account-box {
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.inscription-box,
+.connexion-box {
+    width: 400px;
+    margin-left: 50px;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #ffd700, -2px 2px 5px #ffd700, 2px -2px 5px #ffd700, -2px -2px 5px #ffd700;
+    background-color: #eee;
+}
+
+.inscription-box {
+    height: 600px;
+}
+
+.connexion-box {
+    height: 500px;
+}
