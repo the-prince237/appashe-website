@@ -9,6 +9,10 @@
         box-shadow: 1px 1px 2px gray, -1px 1px 2px gray, -1px -1px 2px gray, 1px -1px 2px gray;
     }
     
+    img {
+        border-radius: 5px;
+    }
+    
     .centerer {
         display: flex;
         justify-content: center;
@@ -17,6 +21,7 @@
     
     li {
         list-style-type: none;
+        margin-right: 20px
     }
     
     a {
@@ -38,15 +43,11 @@
         flex-direction: column;
     }
     
-    li {
-        margin-right: 20px
-    }
-    
     .titre {
         width: 30%;
         display: flex;
         justify-content: stretch;
-        align-items: centers;
+        align-items: center;
         margin-left: 10px;
     }
     
@@ -57,9 +58,10 @@
         color: #121223;
         box-shadow: -2px 0px 4px gray;
         margin-right: -1px;
+        border-radius: 5px;
     }
     
-    .img img {
+    .titre .img img {
         max-width: 65%;
         margin: auto;
     }
@@ -82,17 +84,19 @@
     
     body {
         background: url("../images/background5.png") fixed;
+        display: flex;
+        flex-direction: column;
     }
     
     header {
         margin-bottom: 50px;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
         box-shadow: 0px 4px 4px #121223;
         height: 70px;
-        align-items: center;
         color: #121223;
         background-color: #eee;
+        z-index: 2;
     }
     
     .logo {
@@ -119,6 +123,28 @@
         border-radius: 60px;
         background-color: #121223;
         color: #ffd700;
+    }
+    
+    .article {
+        box-shadow: 2px 2px 2px gray, -2px 2px 2px gray, 2px -2px 2px gray, -2px -2px 2px gray;
+        border-radius: 5px;
+        margin: 5px;
+        position: relative;
+    }
+    
+    .article img {
+        width: 100%;
+        border-radius: 5px;
+        opacity: 0.95;
+    }
+    
+    .article img:hover {
+        z-index: 2;
+        opacity: 1;
+    }
+    
+    .article:hover {
+        box-shadow: 5px 5px 20px #121223, -5px 5px 20px #121223, 5px -5px 20px #121223, -5px -5px 20px #121223;
     }
     
     footer {

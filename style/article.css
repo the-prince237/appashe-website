@@ -1,0 +1,36 @@
+.current-article {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.current-article img {
+    margin-right: 20px;
+    width: 40%;
+    box-shadow: 4px 4px 4px #121223, 4px -4px 4px #121223, -4px -4px 4px #121223, -4px 4px 4px #121223;
+}
+
+.current-article--introduction .name {
+    font-size: xx-large;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.similar-articles {
+    width: 70%;
+    margin: auto;
+    height: 150px;
+    position: relative;
+}
+
+.similar-article--pic {
+    margin-right: 20px;
+}
+
+.similar-article--pic img {
+    width: 100px;
+}
